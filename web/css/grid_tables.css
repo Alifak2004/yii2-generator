@@ -1,0 +1,107 @@
+.toolbar_btn,
+.btn_create_toggle a,
+.btn_create_export button {
+  border: none;
+  vertical-align: middle;
+  padding: 0.5rem 1rem;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_redo,
+.btn_create_toggle a,
+.btn_create_export button {
+  background-color: #ddd;
+  color: #222;
+  margin: 0 0.1rem;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+
+.btn_redo:hover,
+.btn_create_toggle a:hover,
+.btn_create_export button:hover {
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.btn_create {
+  background-color: #2787e1;
+  color: #f4f4f4;
+  margin: 0 0.1rem;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  width: 100px;
+}
+.btn_create:hover {
+  background-color: #1471c8;
+  color: #f4f4f4;
+  border: 1px solid #333;
+}
+
+.btn_create_export a {
+  transition: transform 0.2s;
+}
+
+.btn_create_export a:hover {
+  transform: scale(1.05);
+}
+
+.btn_conv_link {
+  border: none;
+  background-color: transparent;
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+}
+
+.page-link {
+  color: #111;
+  transition: 0.2s all;
+}
+
+.page-link:hover {
+  opacity: 0.8;
+}
+
+.active2 .page-link {
+  z-index: 3;
+  color: #111;
+  background-color: #555;
+  border: 1px solid #fff;
+}
+
+.full-width-alert {
+  padding: 0 0;
+  /* max-height: 70vh; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8888887f;
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #888888c2;
+}
+
+.contextMenu {
+}
+.contextMenu ul {
+  list-style: none;
+  margin: none;
+  padding: none;
+}
